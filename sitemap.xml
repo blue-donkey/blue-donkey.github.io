@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://latexify.xyz/tags/index.html</loc>
+    
+    <lastmod>2018-06-03T06:43:34.788Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://latexify.xyz/categories/index.html</loc>
+    
+    <lastmod>2018-06-03T06:42:56.017Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://latexify.xyz/Creating_a_document_in_LaTeX.html</loc>
     
     <lastmod>2018-06-03T05:24:46.241Z</lastmod>
@@ -12,13 +26,6 @@
     <loc>http://latexify.xyz/Choosing_a_LaTeX_Compiler.html</loc>
     
     <lastmod>2018-06-03T05:24:32.150Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://latexify.xyz/tags/index.html</loc>
-    
-    <lastmod>2018-05-28T22:17:43.547Z</lastmod>
     
   </url>
   
@@ -52,13 +59,6 @@
   
   <url>
     <loc>http://latexify.xyz/books/index.html</loc>
-    
-    <lastmod>2018-05-28T22:17:43.545Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://latexify.xyz/categories/index.html</loc>
     
     <lastmod>2018-05-28T22:17:43.545Z</lastmod>
     
