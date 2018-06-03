@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://latexify.xyz/Paragraphs_and_new_lines.html</loc>
+    
+    <lastmod>2018-06-03T07:48:23.828Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://latexify.xyz/Choosing_a_LaTeX_Compiler.html</loc>
     
     <lastmod>2018-06-03T07:37:37.965Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://latexify.xyz/Creating_a_document_in_LaTeX.html</loc>
     
     <lastmod>2018-06-03T07:37:25.263Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://latexify.xyz/Paragraphs_and_new_lines.html</loc>
-    
-    <lastmod>2018-06-03T07:37:12.309Z</lastmod>
     
   </url>
   
