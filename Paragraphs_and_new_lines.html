@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset="utf-8">
+  <meta name=referrer content=never>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  <!-- Color theme for statusbar -->
+  <meta name="theme-color" content="#000000" />
+  
+  <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
+  <meta http-equiv="window-target" content="_top" />
+  
+  <meta name="google-site-verification" content="eSImiwJFe6QU-fdC_upw1EtZPruxqdOVHZtigeONemw" />
+  
+  
+  <title>Paragraphs and new lines | LaTeXify</title>
+  <meta name="description" content="Even though the default formatting in LaTeX is fine, sometimes we need to change some elements. In this article is explained how to format paragraphs, change the text alignment and insert blank spaces">
+<meta name="keywords" content="Basics">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Paragraphs and new lines">
+<meta property="og:url" content="http://latexify.xyz/Paragraphs_and_new_lines.html">
+<meta property="og:site_name" content="LaTeXify">
+<meta property="og:description" content="Even though the default formatting in LaTeX is fine, sometimes we need to change some elements. In this article is explained how to format paragraphs, change the text alignment and insert blank spaces">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="https://cdn.sharelatex.com/learn-scripts/images/c/ca/ParagraphsEx1.png">
+<meta property="og:image" content="https://cdn.sharelatex.com/learn-scripts/images/8/85/Paragraph-blank_line.png">
+<meta property="og:image" content="https://cdn.sharelatex.com/learn-scripts/images/d/d2/ParagraphsEx3.png">
+<meta property="og:image" content="https://cdn.sharelatex.com/learn-scripts/images/e/e5/ParagraphsEx5.png">
+<meta property="og:updated_time" content="2018-06-03T07:37:12.309Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Paragraphs and new lines">
+<meta name="twitter:description" content="Even though the default formatting in LaTeX is fine, sometimes we need to change some elements. In this article is explained how to format paragraphs, change the text alignment and insert blank spaces">
+<meta name="twitter:image" content="https://cdn.sharelatex.com/learn-scripts/images/c/ca/ParagraphsEx1.png">
+  <!-- Canonical links -->
+  <link rel="canonical" href="http://latexify.xyz/Paragraphs_and_new_lines.html">
+  
+    <link rel="alternate" href="/atom.xml" title="LaTeXify" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+  
+  <!-- font-awesome CSS -->
+  <!-- <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="/css/style.css">
+  
+    
+    
+
+</head>
+
+
+<body class="main-center" itemscope itemtype="http://schema.org/WebPage">
+  <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="slimContent">
+    <div class="navbar-header">
+      
+      <div class="search" id="search-form-wrap">
+
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i class="icon icon-search"></i></button>
+            </span>
+        </div>
+    </form>
+    <div class="ins-search">
+  <div class="ins-search-mask"></div>
+  <div class="ins-search-container">
+    <div class="ins-input-wrapper">
+      <input type="text" class="ins-search-input" placeholder="Type something..." x-webkit-speech />
+      <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    </div>
+    <div class="ins-section-wrapper">
+      <div class="ins-section-container"></div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+      <ul class="nav navbar-nav main-nav">
+        
+        
+        
+        <li class="menu-item menu-item-home">
+          <a href="/.">
+            
+            <i class="icon icon-home-fill"></i>
+            
+            <span class="menu-title">Home</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives">
+            
+            <i class="icon icon-archives-fill"></i>
+            
+            <span class="menu-title">Archives</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories">
+            
+            <i class="icon icon-folder"></i>
+            
+            <span class="menu-title">Categories</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags">
+            
+            <i class="icon icon-tags"></i>
+            
+            <span class="menu-title">Tags</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="menu-item menu-item-links">
+          <a href="/links">
+            
+            <i class="icon icon-friendship"></i>
+            
+            <span class="menu-title">Links</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+    </nav>
+  </div>
+</header>
+
+  
+    <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+       <div class="widget">
+    <h3 class="widget-title">LaTeX Basics</h3>
+    <div class="widget-body">
+      <ul>
+<li> <a href="/Creating_a_document_in_LaTeX.html" title="Creating a document in LaTeX">Creating your first LaTeX document</a>
+</li><li> <a href="/Choosing_a_LaTeX_Compiler.html" title="Choosing a LaTeX Compiler">Choosing a LaTeX Compiler</a>
+</li><li> <a href="/Paragraphs_and_new_lines.html" title="Paragraphs and new lines">Paragraphs and new lines</a>
+</li><li> <a href="/Bold,_italics_and_underlining.html" title="Bold, italics and underlining">Bold, italics and underlining</a>
+</li><li> <a href="/Lists.html" title="Lists">Lists</a>
+</li><li> <a href="/Errors.html" title="Errors">Errors</a>
+</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+      <ul class="recent-post-list list-unstyled no-thumbnail">
+        
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="/categories/LaTeX-Tutorial/">LaTeX Tutorial</a>
+              </p>
+              <p class="item-title">
+                <a href="/Paragraphs_and_new_lines.html" class="title">Paragraphs and new lines</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2018-05-02T22:00:00.000Z" itemprop="datePublished">2018-05-03</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="/categories/LaTeX-Tutorial/">LaTeX Tutorial</a>
+              </p>
+              <p class="item-title">
+                <a href="/Choosing_a_LaTeX_Compiler.html" class="title">Choosing a LaTeX Compiler</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2018-05-01T22:00:00.000Z" itemprop="datePublished">2018-05-02</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                <a class="category-link" href="/categories/LaTeX-Tutorial/">LaTeX Tutorial</a>
+              </p>
+              <p class="item-title">
+                <a href="/Creating_a_document_in_LaTeX.html" class="title">Creating a document in LaTeX</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2018-04-30T22:00:00.000Z" itemprop="datePublished">2018-05-01</time>
+              </p>
+            </div>
+          </li>
+          
+      </ul>
+    </div>
+  </div>
+  
+
+    
+  </div>
+</aside>
+
+  
+  
+<main class="main" role="main">
+  <div class="content">
+  <article id="post-Paragraphs_and_new_lines" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Paragraphs and new lines
+    </h1>
+  
+
+      
+      <div class="article-meta">
+        <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/Paragraphs_and_new_lines.html" class="article-date">
+	  <time datetime="2018-05-02T22:00:00.000Z" itemprop="datePublished">2018-05-03</time>
+	</a>
+</span>
+        
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/LaTeX-Tutorial/">LaTeX Tutorial</a>
+  </span>
+
+        
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/Basics/">Basics</a>
+  </span>
+
+
+        
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/Paragraphs_and_new_lines.html#comments" class="article-comment-link">Comments</a></span>
+        
+      </div>
+    </div>
+    <div class="article-entry markdown-body" itemprop="articleBody">
+      
+        <p>Even though the default formatting in LaTeX is fine, sometimes we need to change some elements. In this article is explained how to format paragraphs, change the text alignment and insert blank spaces.</p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><p>Let’s start with an example:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;center&#125;</span><br><span class="line">Example 1: The following paragraph (given in quotes) is an </span><br><span class="line">example of Center Alignment using the center environment. </span><br><span class="line"> </span><br><span class="line">``LaTeX is a document preparation system and document markup </span><br><span class="line">language. LaTeX uses the TeX typesetting program for formatting </span><br><span class="line">its output, and is itself written in the TeX macro language. </span><br><span class="line">LaTeX is not the name of a particular editing program, but </span><br><span class="line">refers to the encoding or tagging conventions that are used </span><br><span class="line">in LaTeX documents&quot;.</span><br><span class="line">\end&#123;center&#125;</span><br></pre></td></tr></table></figure></p>
+<center><img src="https://cdn.sharelatex.com/learn-scripts/images/c/ca/ParagraphsEx1.png" alt=""></center>
+
+<p>This two paragraphs are written inside a <code>center</code> environment, which causes them to be centred. Notice that to start a new paragraph you have to insert a <em>blank line</em> in between them. This is quite natural, but not the only way declare a new paragraph.</p>
+<h3 id="New-Paragraph"><a href="#New-Paragraph" class="headerlink" title="New Paragraph"></a>New Paragraph</h3><p>To start a new paragraph in LaTeX, as said before, you must leave a blank line in between. There’s another way to start a new paragraph, look at the following code snippet.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">This is the text in first paragraph. This is the text in first </span><br><span class="line">paragraph. This is the text in first paragraph. \par</span><br><span class="line">This is the text in second paragraph. This is the text in second </span><br><span class="line">paragraph. This is the text in second paragraph.</span><br></pre></td></tr></table></figure></p>
+<p><center><img src="https://cdn.sharelatex.com/learn-scripts/images/8/85/Paragraph-blank_line.png" alt=""></center><br>As you can see, the <code>\par</code> command also starts a new paragraph.</p>
+<p>By default, the paragraphs are indented by 1.5 times the point size of the current font. Also, there is no extra blank space inserted between the paragraphs. In the sections below is described how to change that.</p>
+<h3 id="Paragraph-Alignment-Text-Justification"><a href="#Paragraph-Alignment-Text-Justification" class="headerlink" title="Paragraph Alignment (Text Justification)"></a>Paragraph Alignment (Text Justification)</h3><p>Paragraphs in LaTeX are fully justified, i.e. flush with both the left and right margins. If you would like to change the justification of a paragraph, LaTeX has the following three environments: <code>center</code>, <code>flushleft</code> and <code>flushright</code> (see an example of <code>center</code> at the introduction).<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;flushleft&#125;</span><br><span class="line">``LaTeX is a document preparation system and document markup </span><br><span class="line">language. LaTeX uses the TeX typesetting program for formatting </span><br><span class="line">its output, and is itself written in the TeX macro language. </span><br><span class="line">LaTeX is not the name of a particular editing program, but refers </span><br><span class="line">to the encoding or tagging conventions that are used in LaTeX documents&quot;.</span><br><span class="line">\end&#123;flushleft&#125;</span><br></pre></td></tr></table></figure></p>
+<p><center><img src="https://cdn.sharelatex.com/learn-scripts/images/d/d2/ParagraphsEx3.png" alt=""></center><br>The <code>flushleft</code> environment left-justifies the paragraph. To right-justify use <em>flushright</em> instead.</p>
+<p>The aforementioned environments are based upon the switch commands: <code>\raggedright</code> (equivalent to <em>flushleft</em>), <code>\raggedleft</code> (equivalent to <em>flushright</em>) and <code>centering</code> (equivalent to <em>center</em>). A switch command switches the alignment from the point where it’s inserted down to the end of the document, unless another switch command is inserted.</p>
+<p>For more detailed information and examples on text alignment see the article <a href="https://cn.sharelatex.com/learn/Text_alignment" target="_blank" rel="noopener">Text alignment</a>.</p>
+<h3 id="Paragraph-Indentation"><a href="#Paragraph-Indentation" class="headerlink" title="Paragraph Indentation"></a>Paragraph Indentation</h3><p>By default, LaTeX does not indent the first paragraph of a section. The size of the subsequent paragraph indents is determined by the parameter <code>\parindent</code>.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">\setlength&#123;\parindent&#125;&#123;10ex&#125;</span><br><span class="line">This is the text in first paragraph. This is the text in first </span><br><span class="line">paragraph. This is the text in first paragraph. \par</span><br><span class="line">\noindent %The next paragraph is not indented</span><br><span class="line">This is the text in second paragraph. This is the text in second </span><br><span class="line">paragraph. This is the text in second paragraph.</span><br></pre></td></tr></table></figure></p>
+<p><center><img src="https://cdn.sharelatex.com/learn-scripts/images/e/e5/ParagraphsEx5.png" alt=""></center><br>The default length of this parameter is set by the document class used. It is possible to change the indent size of the paragraph by using the command <code>\setlength</code>. In the example the paragraphs below <code>\setlength{\parindent}{10ex}</code> will be indented 10ex (an “ex” equals the lenght of the “x” in the current font)</p>
+<p>If you want to create a non-indented paragraph, like the second one in the example, you can use the command <code>\noindent</code> at the beginning of the paragraph.</p>
+<p>If you want to indent a paragraph that is not indented you can use <code>\indent</code> above it. It should be noted that this command will only have an effect when <code>\parindent</code> is not set to zero.</p>
+<p>Detailed information and further examples can be found at <a href="/Paragraph_formatting.html">Paragraph formatting</a>.</p>
+<h3 id="Further-Reading"><a href="#Further-Reading" class="headerlink" title="Further Reading"></a>Further Reading</h3><ul>
+<li><a href="/Lengths_in_LaTeX.html" title="Lengths in LaTeX">Lengths in LaTeX</a></li>
+<li><a href="/Paragraph_formatting.html" title="Paragraph formatting">Paragraph formatting</a></li>
+<li><a href="/Line_breaks_and_blank_spaces.html" title="Line breaks and blank spaces">Line breaks and blank spaces</a></li>
+<li><a href="/Text_alignment.html" title="Text alignment">Text alignment</a></li>
+<li><a href="/Lists.html" title="Lists">Lists</a></li>
+<li><a href="/Bold,_italics_and_underlining.html" title="Bold, italics and underlining">Bold, italics and underlining</a></li>
+<li><a href="http://www.ctan.org/tex-archive/info/lshort/" target="_blank" rel="noopener">The not so short introduction to LaTeX2ε</a></li>
+</ul>
+
+      
+    </div>
+    <div class="article-footer">
+      
+
+    </div>
+  </article>
+  
+    
+  <section id="comments">
+  	
+  </section>
+
+
+  
+</div>
+
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    
+    <li class="next">
+      <a href="/Choosing_a_LaTeX_Compiler.html" title="Choosing a LaTeX Compiler"><span>Older&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+  </ul>
+  
+  
+  
+  <div class="bar-right">
+    
+    <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter" data-mobile-sites="weibo,qq,qzone"></div>
+    
+  </div>
+  </div>
+</nav>
+  
+
+
+</main>
+
+  <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+	
+    <div class="copyright">
+    	
+        <div class="publishby">
+        	Theme by <a href="https://github.com/cofess" target="_blank"> cofess </a>base on <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
+        </div>
+    </div>
+</footer>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>
+window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script src="/js/plugin.min.js"></script>
+<script src="/js/application.js"></script>
+  
+    
+    
+    
+        <script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+    
+    
+    
+        
+
+
+    
+    
+        
+    
+    
+        <script defer type="text/javascript">
+(function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-120253876-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+
+
+</body>
+</html>
