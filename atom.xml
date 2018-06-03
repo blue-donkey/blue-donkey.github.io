@@ -5,9 +5,9 @@
   <subtitle>Clanzd</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://latex.clanzd.com/"/>
+  <link href="http://latexify.xyz/"/>
   <updated>2018-06-01T20:31:38.065Z</updated>
-  <id>http://latex.clanzd.com/</id>
+  <id>http://latexify.xyz/</id>
   
   <author>
     <name>clanzd</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>使用 LaTeX 创建文档</title>
-    <link href="http://latex.clanzd.com/Creating_a_document_in_LaTeX.html"/>
-    <id>http://latex.clanzd.com/Creating_a_document_in_LaTeX.html</id>
+    <link href="http://latexify.xyz/Creating_a_document_in_LaTeX.html"/>
+    <id>http://latexify.xyz/Creating_a_document_in_LaTeX.html</id>
     <published>2018-05-28T21:35:07.849Z</published>
     <updated>2018-06-01T20:31:38.065Z</updated>
     
