@@ -5,10 +5,25 @@
     
   <url>
     <loc>http://latexify.xyz/Creating_a_document_in_LaTeX.html</loc>
-    <lastmod>2018-06-01T20:31:38.065Z</lastmod>
+    <lastmod>2018-06-03T05:13:50.249Z</lastmod>
     <data>
         <display>
-        <title>使用 LaTeX 创建文档</title>
+        <title>Creating a document in LaTeX</title>
+        <pubTime>2018-05-28T21:35:07.849Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://latexify.xyz/Choosing_a_LaTeX_Compiler.html</loc>
+    <lastmod>2018-06-03T05:12:41.332Z</lastmod>
+    <data>
+        <display>
+        <title>Choosing a LaTeX Compiler</title>
         <pubTime>2018-05-28T21:35:07.849Z</pubTime>
         
          
