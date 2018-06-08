@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://latexify.xyz/"/>
-  <updated>2018-06-03T07:48:23.828Z</updated>
+  <updated>2018-06-08T19:06:52.569Z</updated>
   <id>http://latexify.xyz/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Bold, italics and underlining</title>
+    <link href="http://latexify.xyz/Bold,_italics_and_underlining.html"/>
+    <id>http://latexify.xyz/Bold,_italics_and_underlining.html</id>
+    <published>2018-05-03T22:00:00.000Z</published>
+    <updated>2018-06-08T19:06:52.569Z</updated>
+    
+    <content type="html"><![CDATA[<p>Simple text formatting helps to highlight important concepts within a document and make it more readable. Using italics, bold or underlined words can change the perception of the reader.</p><h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><p>In this article three basic text formatting tools will be explained: italics, bold and underline. Let’s begin with an example:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Some of the \textbf&#123;greatest&#125; </span><br><span class="line">discoveries in \underline&#123;science&#125; </span><br><span class="line">were made by \textbf&#123;\textit&#123;accident&#125;&#125;.</span><br></pre></td></tr></table></figure></p><center><img src="https://cdn.sharelatex.com/learn-scripts/images/a/a9/Biu1.png" alt=""></center><p>As you can see, there are three basic commands and they can be nested to get combined effects.</p><blockquote><p>Note: The commands <code>\it</code> and <code>\bf</code> also work to italicize and boldface text, but it’s not recommended to use them since they don’t preserve previous styles. With these you can’t, for instance, italicize and make a text bold at the same time.</p></blockquote><h3 id="Italicized-text"><a href="#Italicized-text" class="headerlink" title="Italicized text"></a>Italicized text</h3><p>To make a text italic is straightforward, use the <code>\textit</code> command:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Some of the greatest </span><br><span class="line">discoveries in science </span><br><span class="line">were made by \textit&#123;accident&#125;.</span><br></pre></td></tr></table></figure></p><center><img src="https://cdn.sharelatex.com/learn-scripts/images/a/a9/Biu2.png" alt=""></center><h3 id="Bold-text"><a href="#Bold-text" class="headerlink" title="Bold text"></a>Bold text</h3><p>To make a text bold use <code>\textbf</code> command:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Some of the \textbf&#123;greatest&#125; </span><br><span class="line">discoveries in science </span><br><span class="line">were made by accident.</span><br></pre></td></tr></table></figure></p><center><img src="https://cdn.sharelatex.com/learn-scripts/images/4/4b/Biu3.png" alt=""></center><h3 id="Underlined-text"><a href="#Underlined-text" class="headerlink" title="Underlined text"></a>Underlined text</h3><p>Underlining text is very simple too, use the <code>\underline</code> command:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Some of the greatest </span><br><span class="line">discoveries in \underline&#123;science&#125; </span><br><span class="line">were made by accident.</span><br></pre></td></tr></table></figure></p><center><img src="https://cdn.sharelatex.com/learn-scripts/images/6/61/Biu4.png" alt=""></center><h3 id="Emphasising-text"><a href="#Emphasising-text" class="headerlink" title="Emphasising text"></a>Emphasising text</h3><p>Text can be emphasized by using <code>\emph</code> command. Sometimes the <code>\emph</code> command behaves just as <code>\textit</code>, but is not exactly the same:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">Some of the greatest \emph&#123;discoveries&#125; </span><br><span class="line">in science </span><br><span class="line">were made by accident.</span><br><span class="line"> </span><br><span class="line">\textit&#123;Some of the greatest \emph&#123;discoveries&#125; </span><br><span class="line">in science </span><br><span class="line">were made by accident.&#125;</span><br><span class="line"> </span><br><span class="line">\textbf&#123;Some of the greatest \emph&#123;discoveries&#125; </span><br><span class="line">in science </span><br><span class="line">were made by accident.&#125;</span><br></pre></td></tr></table></figure></p><center><img src="https://cdn.sharelatex.com/learn-scripts/images/5/5d/Biu5.png" alt=""></center><p>What the <code>\emph</code> command actually does with its argument depends on the context - inside normal text the emphasized text is italicized, but this behaviour is reversed if used inside an italicized text – see example above:</p><p>Moreover, some packages, e.g. Beamer, change the behaviour of <code>\emph</code> command.</p><h3 id="Further-Reading"><a href="#Further-Reading" class="headerlink" title="Further Reading"></a>Further Reading</h3><ul><li><a href="/Paragraphs_and_new_lines.html">Paragraphs and new lines</a></li><li><a href="/Lists.html">Lists</a></li><li><a href="/Paragraph_formatting.html">Paragraph formatting</a></li><li><a href="/Line_breaks_and_blank_spaces.html">Line breaks and blank spaces</a></li><li><a href="http://www.ctan.org/tex-archive/info/lshort/" target="_blank" rel="noopener">The not so short introduction to LaTeX2ε</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Simple text formatting helps to highlight important concepts within a document and make it more readable. Using italics, bold or underlin
+      
+    
+    </summary>
+    
+      <category term="LaTeX Tutorial" scheme="http://latexify.xyz/categories/LaTeX-Tutorial/"/>
+    
+    
+      <category term="Basics" scheme="http://latexify.xyz/tags/Basics/"/>
+    
+  </entry>
   
   <entry>
     <title>Paragraphs and new lines</title>
