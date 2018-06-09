@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>http://latexify.xyz/Lists.html</loc>
+    <lastmod>2018-06-09T11:27:01.326Z</lastmod>
+    <data>
+        <display>
+        <title>Lists</title>
+        <pubTime>2018-05-04T22:00:00.000Z</pubTime>
+        
+        <tag>Basics</tag>
+         
+         
+           
+             
+              <breadCrumb title="LaTeX Tutorial" url="http://latexify.xyz/categories/LaTeX-Tutorial/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://latexify.xyz/Bold,_italics_and_underlining.html</loc>
-    <lastmod>2018-06-08T19:06:52.569Z</lastmod>
+    <lastmod>2018-06-09T10:47:40.768Z</lastmod>
     <data>
         <display>
         <title>Bold, italics and underlining</title>
